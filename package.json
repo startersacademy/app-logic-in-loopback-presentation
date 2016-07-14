@@ -1,0 +1,31 @@
+{
+  "name": "app-logic-in-loopback-presentation",
+  "version": "1.0.0",
+  "description": "",
+  "config": {
+    "source_dir": "./source",
+    "build_dir": "./build",
+    "pdf_path": "./build/slides.pdf"
+  },
+  "scripts": {
+    "init": "prez $npm_package_config_source_dir $npm_package_config_build_dir --init",
+    "present": "prez $npm_package_config_source_dir $npm_package_config_build_dir --serve",
+    "dev": "prez $npm_package_config_source_dir $npm_package_config_build_dir --serve --watch $npm_package_config_pdf_path",
+    "watch": "prez $npm_package_config_source_dir $npm_package_config_build_dir --watch",
+    "print": "prez $npm_package_config_source_dir $npm_package_config_build_dir --print $npm_package_config_pdf_path"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/startersacademy/presentation-boilerplate.git"
+  },
+  "keywords": [
+    "presentation",
+    "meetup"
+  ],
+  "author": "Todd Bashor",
+  "license": "MIT",
+  "dependencies": {
+    "prez": "^4.4.0"
+  }
+}

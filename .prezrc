@@ -1,0 +1,17 @@
+{
+  "name": "Adding Logic to a Loopback App",
+  "slides": "slides",
+  "skipReveal": false,
+  "skipIndex": false,
+  "skipUser": false,
+  "keepHidden": false,
+  "print": false,
+  "printTheme": "simple",
+  "phantomjs": "phantomjs",
+  "suchNotes": false,
+  "theme": "white",
+  "highlightTheme": "github",
+  "dynamicTheme": true,
+  "watch": false,
+  "subCovers": false
+}
